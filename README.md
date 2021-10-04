@@ -10,18 +10,21 @@ Send Mail: When a user submits the email composition form, JavaScript 'sends' th
 
 Mailbox: When a user visits their Inbox, Sent mailbox, or Archive, load the appropriate mailbox.
 
-    Each email is rendered in its own div element, containing necessary email information. Color of this div depends on wether the email was read or not (CSS is used to change style).
+> Each email is rendered in its own div element, containing necessary email information. 
+> Color of this div depends on wether the email was read or not (CSS is used to change style).
 
 View Email: When a user clicks on an email, they are taken to a view with the content of that email.
 
-    The view shows the email’s sender, recipients, subject, timestamp, and body.
+> The view shows the email’s sender, recipients, subject, timestamp, and body.
 
 Archive and Unarchive: Allow users to archive and unarchive emails that they have received.
 
-    When viewing an Inbox email, the user is presented with a button that lets them archive the email. When viewing an Archive email, the user is presented with a button that lets them unarchive the email. This requirement does not apply to emails in the Sent mailbox.
+> When viewing an Inbox email, the user is presented with a button that lets them archive the email. 
+> When viewing an Archive email, the user is presented with a button that lets them unarchive the email. 
+> This requirement does not apply to emails in the Sent mailbox.
 
 Reply: Allow users to reply to an email.
 
-    When viewing an Inbox or Archive email, the user is presented with a 'Reply' button that lets them reply to the email.
-    When the user clicks the 'Reply' button, they are taken to the email composition form.
-    The composition form is prefixed with 'Re:' and is pre-filled with the original email's data: sender/recipiets, subject, body.
+> When viewing an Inbox or Archive email, the user is presented with a 'Reply' button that lets them reply to the email.
+> When the user clicks the 'Reply' button, they are taken to the email composition form.
+> The composition form is prefixed with 'Re:' and is pre-filled with the original email's data: sender/recipiets, subject, body.
