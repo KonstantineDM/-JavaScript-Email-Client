@@ -1,5 +1,5 @@
 # [JavaScript] Email Client
-An email client created only with JavaScript (and a little bit of CSS). 
+An email client created only with JavaScript (and a tiny bit of CSS). 
 
 The API for sending and receivin email was pre-created with django.
 
