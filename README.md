@@ -35,4 +35,4 @@ Reply: Allow users to reply to an email.
 > When the user clicks the 'Reply' button, they are taken to the email composition form.
 > The composition form is prefixed with 'Re:' and is pre-filled with the original email's data: sender/recipiets, subject, body.
 
-P.S. All django code was created by author's course and thus is irrelevant fot this JavaScript/CSS project (so I did not push it to repo).
+P.S. All django code was created by author's course and thus is irrelevant fot this JavaScript/CSS project (so I did not push it to repo). inbox.html template was added to help better understand the workings of inbox.js.
