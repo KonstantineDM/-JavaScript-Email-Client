@@ -7,7 +7,7 @@ The API for sending and receivin email was pre-created with django.
 Created as part of my learning JavaScript according to Specification of "Project 3" of Harvard's course "CS50’s Web Programming with Python and JavaScript".
 Intended for educational purposes only, as a personal perspective on a solution to this course's project (do not use this code if you are currently trying to figure the solution out, first try to solve everything yourself!).
 
-### Mind that this is my first JavaScript project and thus is subject to contain bugsand/or ineffective code.
+`### Mind that this is my first JavaScript project and thus is subject to contain bugs and/or ineffective code.`
 
 
 Of course it is all client-side, no real emails are being sent. All users and their emails are stored in a django's database.
