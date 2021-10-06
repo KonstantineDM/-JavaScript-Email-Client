@@ -154,6 +154,7 @@ function view_email(email_id, mailbox) {
     timestamp.innerHTML = `Timestamp: ${email.timestamp}`;
     body.innerHTML = `${email.body}`;
     
+    // Text inside "archive/unarchive" button
     if (email.archived) {
         archive.innerHTML = 'Unarchive';
       } else {
@@ -190,9 +191,9 @@ function view_email(email_id, mailbox) {
       };
     }
   });
-
 }
 
+// Make request to "send" composed email
 function send_email () {
   fetch('/emails', {
     method: 'POST',
@@ -202,9 +203,9 @@ function send_email () {
       body: document.querySelector('#compose-body').value,
     })
   });
-
 }
 
+// Mark email as "read"
 function mark_read(email) {
   fetch(`/emails/${email.id}`, {
     method: 'PUT',
@@ -214,6 +215,7 @@ function mark_read(email) {
   });
 }
 
+// Mark email as "archived" or "unarchived"
 function mark_archived(email) {
   if (!email.archived) {
     fetch(`/emails/${email.id}`, {
@@ -230,5 +232,4 @@ function mark_archived(email) {
       })
     })
   }
-  
 }
